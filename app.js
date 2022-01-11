@@ -17,7 +17,7 @@ var server = http.createServer(function(request,response){
         });
         response.end(data);
     })
-}).listen(52273,function(){
+}).listen(FORT,function(){
     console.log("server running");
 }); //HTTP 웹서버를 생성
  
